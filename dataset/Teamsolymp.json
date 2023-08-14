@@ -1,0 +1,23 @@
+{
+	"name": "Teamsolymp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Atheltes",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "raw-data",
+				"fileSystem": "tokyo-data-olympics"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
