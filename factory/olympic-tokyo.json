@@ -1,0 +1,9 @@
+{
+	"name": "olympic-tokyo",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f3cec393-7997-4759-855d-603382b6d84a",
+		"tenantId": "d8d06cf4-0f88-46c4-89bd-3dc40cf55667"
+	}
+}
